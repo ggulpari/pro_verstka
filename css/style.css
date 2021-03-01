@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1600px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__header {
+    color: #222222;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-left: 10px;
+}
+
+.logo-header {
+    font-family: Lato;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.my-acc {
+    display: block;
+    background-color: #f16d7f;
+    padding: 13px 20 pxs;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin: 25px;
+
+}
+
+.header-link {
+    width: 87px;
+    height: 38px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #222222;
+    text-align: center;
+    margin-left: 40px;
+  
+}
+
+ a:link {
+    text-decoration: none;
+  }
+
+.arrow_down {
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+.text__header{
+    width: 317px;
+    height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.fa-search {
+    font-family: FontAwesome;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #a4a4a4;
+    border-top: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 11px;
+}
+
+.menu_link {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 51px;
+    font-weight: 700;
+    color: #222222;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+
+.menu_link a:link, .menu_link a:visited  {
+    color: #222222;
+  }
+
+.image_fon {
+    width: 1600px;
+    height: 665px;
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+.image_overlay_text {
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    width: auto;
+}
+
+.shrift_overlay_text {
+    font-family: Lato;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.shrift_overlay_text_down {
+    font-size: 40px;
+}
+
+.shrift_overlay_text_F {
+    font-size: 40px;
+    color: #f16d7f;
+}
+
+.catalog_images {
+    display: flex;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 40px;
+}
+
+.catalog_images_left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.catalog_images_right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.image_1_1 {
+    width: 560px;
+    height: 542px;
+    background-color: #000000;
+}
+
+.image_text {
+    width: 100%;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.image_text2 {
+    font-size: 30px;
+    color: #f16d7f;
+    
+}
+
+.union_text {
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    padding: 10px;
+
+
+}
+
+.image_with_text {
+    position: relative;
+    margin-top: 20px;
+}
+
+.shop-description {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.name_description {
+    font-family: Lato;
+    font-size: 30px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.name_description2 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #9f9f9f;
+}
+
+.gallery_sale {
+    margin-top: 60px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.sale_item_image {
+    width: 261px;
+    height: 280px;
+    background-color: rgba(58,56,56,0.83);
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: block;
+}
+
+.container_image {
+    position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.hover-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255,255,255,0.0);
+    border: 1px solid #ffffff;
+    display: flex;
+    padding: 5px;
+    width: 123px;
+}
+
+  .sale_item {
+      position: relative;
+  }
+
+  .sale_item:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .button_picture {
+    width: 23px;
+    height: 22px;
+  }
+
+
+.sale_item h1 {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sale_item p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sale_catalog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.my-acc1 {
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    font-family: Lato;
+font-size: 16px;
+line-height: 54px;
+font-weight: 700;
+letter-spacing: 0.025em;
+color: #ffffff;
+margin-top: 60px;
+position: center;
