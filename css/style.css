@@ -338,6 +338,11 @@
     margin-bottom: 50px;
 }
 
+.my-acc1 {
+    display: flex;
+    justify-content: center;
+}
+
 .my-acc1 a {
     display: block;
     background-color: #f16d7f;
@@ -352,7 +357,6 @@
     letter-spacing: 0.025em;
     color: #ffffff;
     margin-block: 70px;
-    margin-left: 39rem;
 }
 
 .terms_of_shipment_foto {
