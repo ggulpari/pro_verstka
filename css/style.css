@@ -4,7 +4,6 @@
 }
 
 .header {
-    width: 1600px;
     height: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
     border: 1px solid #ececec;
@@ -131,16 +130,15 @@
     padding-right: 25rem;
 }
 
-
 .menu_link a:link, .menu_link a:visited  {
     color: #222222;
   }
 
-.image_fon {
-    width: 1600px;
-    height: 665px;
-    background-color: #e8e8e8;
-    position: relative;
+.main_photo {
+    background-image: url("../images/foto_fon.png");
+    height: 668px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image_overlay_text {
