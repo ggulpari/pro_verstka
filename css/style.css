@@ -418,24 +418,3 @@
     letter-spacing: 0.025em;
     color: #fbfbfb;
 }
-
-.information_contact {
-    position: relative;
-}
-
-.foto_bla_bla-bla {
-    width: 1600px;
-    height: 438px;
-    background-color: rgba(242,242,242,0.5);
-    margin-top: 100px;
-    position: relative;
-    vertical-align: middle;
-}
-
-.mini_portret {
-    display: flex;
-    position: absolute;
-    width: 83px;
-    height: 83px;
-
-}   
