@@ -1,0 +1,49 @@
+.offer {
+    display: flex;
+    justify-content: center;
+    height: 529px;
+
+
+
+}
+
+.offer_left {
+    background-image: url("../images/offer/foto.aktion.jpg");
+    width: 767px;
+}
+
+.offer_left_overlay_text {
+    margin-top: 146px;
+    margin-left: 39px;
+    width: auto;
+    height: 78px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.offer_left_overlay_text_30_percent {
+    font-style: normal;
+    letter-spacing: 1.5px;
+    line-height: normal;
+}
+
+.offer_left_overlay_text_offer {
+    color: #f16d7f;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    line-height: normal;
+}
+
+.offer_left_overlay_text_women {
+    font-size: 32px;
+    font-style: normal;
+    letter-spacing: 0.9px;
+    line-height: normal;
+}
