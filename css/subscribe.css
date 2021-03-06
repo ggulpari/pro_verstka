@@ -1,7 +1,10 @@
 .subscribe_footer_photo {
-    width: 1618px;
+    width: 100%;
     height: 438px;
-    background-color: #f2f2f2;
+    background-image: url('./../images/subscribe/Layer_41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
 }
 
 .subscribe_footer {
