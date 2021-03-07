@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    padding: 100px 240px;
+}
+
+.footer_column_1 {
+    width: 427px;
+}
+
+.footer_column_1_logo {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.footer_column_1_text {
+    color: #898989;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.35px;
+    
+}
+
+.footer_column_1_text p {
+    margin-bottom: 25px;
+}
