@@ -16,7 +16,6 @@
 
 .header-container {
     margin: 0 auto;
-    width: 1140px;
 }
 
 .header-right {
@@ -122,6 +121,8 @@
     padding: 11px;
 }
 
+
+/*
 .menu_link {
     font-family: Lato;
     font-size: 14px;
@@ -137,7 +138,7 @@
 .menu_link a:link, .menu_link a:visited  {
     color: #222222;
   }
-
+*/
 .main_photo {
     background-image: url("../images/foto_fon.png");
     height: 668px;
