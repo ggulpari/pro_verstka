@@ -55,6 +55,7 @@
 .menu-link-box-list {
     background-color: #ffffff;
     margin-right: 40px;
+    width: 200px;
 }
 
 .menu-link-box-list a {
@@ -63,6 +64,14 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.35px;
+}
+
+.menu-link-box-list h3 {
+    font-family: Lato;
+    font-size: 15px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 8px;
+    font-weight: 400;
 }
 
 .menu-link-box-image {
@@ -138,7 +147,6 @@ ul {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 div {
@@ -150,6 +158,10 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;
     color: #222222;
+}
+
+a:-webkit-any-link:hover {
+    color: #f16d7f;
 }
 
 li {
