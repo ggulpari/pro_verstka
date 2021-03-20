@@ -1,0 +1,15 @@
+.middle-menu-link {
+    color: #ef5b70 !important;
+    border-bottom: 1px solid gray;
+    border-left: 3px solid #ef5b70;
+    padding-bottom: 6px;
+    padding-right: 200px;
+    padding-left: 5px;
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul { 
+    list-style: none; 
+}
