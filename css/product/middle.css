@@ -1,6 +1,5 @@
 .middle-menu-link {
     color: #ef5b70 !important;
-    border-bottom: 1px solid gray;
     border-left: 3px solid #ef5b70;
     padding-bottom: 6px;
     padding-right: 200px;
@@ -10,6 +9,36 @@
     text-transform: uppercase;
 }
 
+.arrow-activited {
+    color: #ef5b70;
+}
+
+.middle-left {
+    margin-right: 30px;
+}
+
 ul { 
     list-style: none; 
+}
+
+.middle {
+    display: flex;
+    margin-top: 50px;
+}
+
+.middle-right {
+    width: 100%;
+}
+
+.middle-right-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-left-link-box-list-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
 }

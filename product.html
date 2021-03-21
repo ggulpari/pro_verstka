@@ -469,13 +469,15 @@
                 <p>Home / Men / <span class="new_arrivals">New Arrivals</span></p>
             </div>
         </div>
-        <div class="middle">
+        <div class="middle container">
             <div class="middle-left">
                 <ul class="middle-menu">
                     <li class="navigation-middle-menu">
                         <div class="middle-left-link-box-list">
-                            <a class="middle-menu-link" href="#">Category</a>
-                            <i class="fa fa-caret-up" aria-hidden="true"></i>
+                            <div class="middle-left-link-box-list-list">
+                               <a class="middle-menu-link" href="#">Category</a>
+                              <i class="fa fa-caret-up arrow-activited" aria-hidden="true"></i> 
+                            </div>
                                 <ul>
                                     <li><a href="#" class="middle-list-link">Accessories</a></li>
                                     <li><a href="#" class="middle-list-link">Bags</a></li>
@@ -493,16 +495,57 @@
                         </div>
                     </li>
                     <li>
-                        <a class="middle-menu-link" href="#">BRAND</a>
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <div class="middle-left-link-box-list-list">
+                            <a class="middle-menu-link" href="#">BRAND</a>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
                     </li>
                     <li>
-                        <a class="middle-menu-link" href="#">DESIGNER</a>
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <div class="middle-left-link-box-list-list">
+                            <a class="middle-menu-link" href="#">DESIGNER</a>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="middle-right"></div>
+            <div class="middle-right">
+                <div class="middle-right-filter">
+                     <div class="middle-right-filter-description">
+                         <h6>Trending now</h6>
+                         <p>
+                            Bohemian | Floral | Lace <br> Floral | Lace  |  Bohemian
+                         </p>
+                     </div>
+                     <div class="middle-right-filter-description">
+                          <h6>Size</h6>
+                          <div>
+                            <input  type="checkbox" name="optiona" id="opta" checked />
+                            <span class="checkboxtext">XXS</span>
+                            <input type="checkbox" name="optionb" id="optb" />
+                            <span class="checkboxtext">XS</span>
+                            <input type="checkbox" name="optionc" id="optc" />
+                            <span class="checkboxtext">S</span>
+                            <input type="checkbox" name="optionc" id="optc" />
+                            <span class="checkboxtext">M</span>
+                            <br>
+                            <input  type="checkbox" name="optiona" id="opta" checked />
+                            <span class="checkboxtext">L</span>
+                            <input type="checkbox" name="optionb" id="optb" />
+                            <span class="checkboxtext">XL</span>
+                            <input type="checkbox" name="optionc" id="optc" />
+                            <span class="checkboxtext">XXL</span>        
+                          </div>
+                     </div>
+                     <div class="middle-right-filter-description">
+                         <h6>PRICE</h6>
+                         <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                     </div>
+                </div>
+            </div>
         </div>
 </body>
 
