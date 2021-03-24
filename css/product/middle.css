@@ -43,6 +43,10 @@ ul {
     margin-top: 10px;
 }
 
+.middle-right-filter-description {
+    width: 100%;
+}
+
 .middle-right-filter-description h6 {
     height: 10px;
     color: #6f6e6e;
@@ -57,7 +61,7 @@ ul {
     margin-top: 22px;
 }
 
-.middle-right-filter-description p {
+ .middle-right-filter-text {
     width: 176px;
     height: 39px;
     color: #6f6e6e;
@@ -74,16 +78,10 @@ ul {
     margin-top: 30px;
  }
  
-.middle-right-filter-description span {
-    color: #dfdfdf;
-    margin-left: 5px;
-    margin-right: 10px;
-}
-
 .checkboxtext {
     width: 16px;
     height: 10px;
-    color: #6f6e6e !important; 
+    color: #6f6e6e;  
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
@@ -92,18 +90,32 @@ ul {
     line-height: 20px;
     text-align: left;
     text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 .checkbox-checkboxtext {
     margin-top: 25px;
 }
 
-.price-progress {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+.progress {
+    margin-top: 23px;
 }
 
-.price-progress span {
+.price-progress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price-progress-nummber{
     color: #6f6e6e;
+}
+
+.progress-bar-color {
+    background-color: red;
+}
+
+.progress-bar-color1 {
+    background-color: #f0f0f0;
 }
